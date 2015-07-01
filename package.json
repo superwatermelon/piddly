@@ -1,0 +1,28 @@
+{
+  "name": "piddly",
+  "version": "0.1.0",
+  "description": "Dependency injection the size of a pin head",
+  "main": "lib/piddly.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/superwatermelon/piddly.git"
+  },
+  "keywords": [
+    "dependency",
+    "injection",
+    "di"
+  ],
+  "author": "Superwatermelon Limited",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superwatermelon/piddly/issues"
+  },
+  "homepage": "https://github.com/superwatermelon/piddly",
+  "devDependencies": {
+    "expect": "^1.6.0",
+    "mocha": "^2.2.5"
+  }
+}
