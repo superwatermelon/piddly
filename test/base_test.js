@@ -31,7 +31,7 @@ describe('piddly', function() {
             },
 
             'Greeter': function(nodes) {
-                return new Greeter(nodes('person'));
+                return new Greeter(nodes('Person'));
             }
 
         });
