@@ -3,7 +3,7 @@ var expect = require('expect');
 
 describe('piddly', function() {
 
-    it('Wires together objects', function() {
+    it('Wires objects together', function() {
 
         // My Person class has a name which can be retrieved through
         // its getter.
