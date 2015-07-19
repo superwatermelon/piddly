@@ -4,7 +4,7 @@
   "description": "Dependency injection the size of a pin head",
   "main": "lib/piddly.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node_modules/istanbul/lib/cli.js cover _mocha"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/superwatermelon/piddly",
   "devDependencies": {
     "expect": "^1.6.0",
+    "istanbul": "^0.3.17",
     "mocha": "^2.2.5"
   }
 }
