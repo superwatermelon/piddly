@@ -1,0 +1,23 @@
+{
+  "name": "piddly",
+  "version": "0.1.1",
+  "homepage": "https://github.com/superwatermelon/piddly",
+  "authors": [
+    "Stuart Wakefield <me@stuartwakefield.co.uk>"
+  ],
+  "description": "Dependency injection the size of a pin head",
+  "main": "browser/piddly.min.js",
+  "keywords": [
+    "dependency",
+    "injection",
+    "di"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
