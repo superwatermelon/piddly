@@ -6,7 +6,11 @@
     "Stuart Wakefield <me@stuartwakefield.co.uk>"
   ],
   "description": "Dependency injection the size of a pin head",
-  "main": "browser/piddly.min.js",
+  "main": "browser/piddly.js",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
   "keywords": [
     "dependency",
     "injection",
@@ -17,7 +21,6 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "test"
   ]
 }
