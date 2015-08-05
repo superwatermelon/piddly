@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "homepage": "https://github.com/superwatermelon/piddly",
   "authors": [
-    "Stuart Wakefield <me@stuartwakefield.co.uk>"
+    "Superwatermelon Limited"
   ],
   "description": "Dependency injection the size of a pin head",
   "main": "browser/piddly.js",
