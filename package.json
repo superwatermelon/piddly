@@ -4,10 +4,10 @@
   "description": "Dependency injection the size of a pin head",
   "main": "lib/piddly.js",
   "scripts": {
-    "test": "node_modules/.bin/istanbul cover _mocha",
-    "postinstall": "npm run browserify && npm run uglify",
-    "browserify": "node_modules/.bin/browserify lib/piddly.js -s piddly -d | node_modules/.bin/exorcist browser/piddly.map > browser/piddly.js",
-    "uglify": "node_modules/.bin/uglifyjs browser/piddly.js --in-source-map browser/piddly.map -c -m -o browser/piddly.min.js --source-map browser/piddly.min.map --source-map-url piddly.min.map"
+    "test": "istanbul cover _mocha",
+    "prepublish": "npm run browserify && npm run uglify",
+    "browserify": "browserify lib/piddly.js -s piddly -d | exorcist browser/piddly.map > browser/piddly.js",
+    "uglify": "uglifyjs browser/piddly.js --in-source-map browser/piddly.map -c -m -o browser/piddly.min.js --source-map browser/piddly.min.map --source-map-url piddly.min.map"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "istanbul": "^0.3.17",
     "mocha": "^2.2.5",
     "exorcist": "~0.4.0",
-    "uglifyjs": "~2.4.10"
+    "uglifyjs": "~2.4.10",
+    "browserify": "~11.0.1"
   }
 }
