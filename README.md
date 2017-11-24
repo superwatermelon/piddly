@@ -1,7 +1,6 @@
 # Piddly
 
-The World's Smallest Dependency Injection Framework for JavaScript
-(unsubstantiated fact)!
+The Tiny JavaScript Dependency Injection Container.
 
 ## Installation
 
